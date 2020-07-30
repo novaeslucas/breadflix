@@ -1,0 +1,136 @@
+{
+  "categorias": [
+    {
+      "titulo": "Pão de fementação natural",
+      "link": "https://www.theperfectloaf.com/best-sourdough-recipe/",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Saiba mais sobre fermentação natural",
+        "url": "https://www.theperfectloaf.com/new-baker-start-here/"
+      },
+      "videos": [
+        {
+          "titulo": "Como fazer seu fermento natural?",
+          "url": "https://www.youtube.com/watch?v=AAAgZzZIZCA"
+        },
+        {
+          "titulo": "Pão de fermentação natural fácil",
+          "url": "https://www.youtube.com/watch?v=3VaU0OLWN1U"
+        },
+        {
+          "titulo": "Pão de fermentação natural para iniciantes",
+          "url": "https://www.youtube.com/watch?v=Znv99QbfWGs"
+        },
+        {
+          "titulo": "Pão de Fermentação Natural - Técnica de laminação",
+          "url": "https://www.youtube.com/watch?v=07uqUZdjDXM"
+        },
+        {
+          "titulo": "Pão de fermentação natural com azeite",
+          "url": "https://www.youtube.com/watch?v=zDzMft3jRdE"
+        }     
+      ]
+    },
+    {
+      "titulo": "Pizza",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Como fazer pizza",
+        "url": "https://www.theperfectloaf.com/sourdough-pizza-dough-and-recipes/"
+      },
+      "videos": [
+        {
+          "titulo": "Pizza de fermento natural",
+          "url": "https://www.youtube.com/watch?v=CVeFMjnOiRs"
+        },
+        {
+          "titulo": "Pizza de fermento natural",
+          "url": "https://www.youtube.com/watch?v=CVeFMjnOiRs"
+        },
+        {
+          "titulo": "How to make the best Sourdough Pizza | Recipe for Italian pizza | Foodgeek",
+          "url": "https://www.youtube.com/watch?v=LXuyEZP2s1c"
+        },
+        {
+          "titulo": "Massa de pizza napoletana e longa fermentação",
+          "url": "https://www.youtube.com/watch?v=xOIhH9mkAxM"
+        }
+      ]
+    },
+    {
+      "titulo": "Focaccia",
+      "cor": "#9cd33b",
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "Como fazer focaccia sem complicações",
+          "url": "https://www.youtube.com/watch?v=9msjjvrfqiE"
+        },
+        {
+          "titulo": "Focaccia de fermento natural",
+          "url": "https://www.youtube.com/watch?v=aTGGDk6jp6Q"
+        },
+        {
+          "titulo": "Focaccia fácil e prática",
+          "url": "https://www.youtube.com/watch?v=TRBiwOwb170"
+        }
+      ]
+    },
+    {
+      "titulo": "Outros tipos de pães",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Pão de Batata Doce Roxa com Fermentação Natural",
+          "url": "https://www.youtube.com/watch?v=gzh9Z7Mwv5E"
+        },
+        {
+          "titulo": "Cinnamon rolls - Receita Clássica Americana",
+          "url": "https://www.youtube.com/watch?v=VajP1URNQsE"
+        },
+        {
+          "titulo": "Sourdough Pretzels",
+          "url": "https://www.youtube.com/watch?v=dHPa037Loi0"
+        }
+      ]
+    },
+    
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
