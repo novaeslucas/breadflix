@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import PageDefault from '../../../components/PageDefault';
 import FormacaoItem from '../../../components/FormacaoItem';
+import aluraFormacoes from '../../../repositories/aluraFormacoes';
 
 const FormacoesAluraWrapper = styled.div``;
 
@@ -22,13 +23,12 @@ function FormacoesAlura() {
   const [formacoes, setFormacoes] = useState([]);
 
   useEffect(() => {
-    const URL = 'https://www.alura.com.br/api/formacoes';
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        const resposta = await respostaDoServer.json();
-        setFormacoes([
-          ...resposta,
-        ]);
+    aluraFormacoes.getAll()
+      .then((formacoesApi) => {
+        setFormacoes(formacoesApi);
+      })
+      .catch((err) => {
+        console.log(err.message);
       });
   }, []);
 
