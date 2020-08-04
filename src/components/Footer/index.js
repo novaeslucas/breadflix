@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from '../Button';
 import { FooterBase } from './styles';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -14,6 +16,9 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <Button as={Link} to="/extra/formacoes-alura">
+        Saiba mais sobre cursos na Alura
+      </Button>
     </FooterBase>
   );
 }

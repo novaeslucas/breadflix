@@ -4,18 +4,18 @@ import Logo from '../../assets/img/Logo.png';
 import './Menu.css';
 import Button from '../Button';
 
-function Menu(){
-    return (
-        <nav className="Menu">
-            <Link to="/">
-                <img className="Logo" src={Logo} alt="Breadflix logo"/>
-            </Link>
+function Menu() {
+  return (
+    <nav className="Menu">
+      <Link to="/">
+        <img className="Logo" src={Logo} alt="Breadflix logo" />
+      </Link>
 
-            <Button as={Link} to="/cadastro/video">
-                Novo vídeo
-            </Button>
-        </nav>
-    );
+      <Button as={Link} to="/cadastro/video">
+        Novo vídeo
+      </Button>
+    </nav>
+  );
 }
 
-export default Menu; 
+export default Menu;
