@@ -1,22 +1,124 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "asasdasdFront End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      }
-     ]
-  }
+	"categorias": [
+		{
+			"id": 1,
+			"titulo": "Pão de fementação natural",
+			"cor": "#6BD1FF",
+			"link_extra": {
+				"text": "Saiba mais sobre fermentação natural",
+				"url": "https://www.theperfectloaf.com/new-baker-start-here/"
+			}
+		},
+		{
+			"id": 2,
+			"titulo": "Pizza",
+			"cor": "#00C86F",
+			"link_extra": {
+				"text": "Como fazer pizza",
+				"url": "https://www.theperfectloaf.com/sourdough-pizza-dough-and-recipes/"
+			}
+		},
+		{
+			"id": 3,
+			"titulo": "Focaccia",
+			"cor": "#9cd33b"
+		},
+		{
+			"id": 4,
+			"titulo": "Outros tipos de pães",
+			"cor": "orange"
+		}
+	],
+	"videos": [
+		{
+			"id": 1,
+			"categoriaId": 1,
+			"titulo": "Como fazer seu fermento natural?",
+			"url": "https://www.youtube.com/watch?v=AAAgZzZIZCA"
+		},
+		{
+			"id": 2,
+			"categoriaId":1 ,
+			"titulo": "Pão de fermentação natural fácil",
+			"url": "https://www.youtube.com/watch?v=3VaU0OLWN1U"
+		},
+		{
+			"id": 3,
+			"categoriaId": 1,
+			"titulo": "Pão de fermentação natural para iniciantes",
+			"url": "https://www.youtube.com/watch?v=Znv99QbfWGs"
+		},
+		{
+			"id": 4,
+			"categoriaId": 1,
+			"titulo": "Pão de Fermentação Natural - Técnica de laminação",
+			"url": "https://www.youtube.com/watch?v=07uqUZdjDXM"
+		},
+		{
+			"id": 5,
+			"categoriaId": 1,
+			"titulo": "Pão de fermentação natural com azeite",
+			"url": "https://www.youtube.com/watch?v=zDzMft3jRdE"
+		},
+		{
+			"id": 6,
+			"categoriaId": 2,
+			"titulo": "Pizza de fermento natural",
+			"url": "https://www.youtube.com/watch?v=CVeFMjnOiRs"
+		},
+		{
+			"id": 7,
+			"categoriaId": 2,
+			"titulo": "Pizza de fermento natural",
+			"url": "https://www.youtube.com/watch?v=CVeFMjnOiRs"
+		},
+		{
+			"id": 8,
+			"categoriaId": 2,
+			"titulo": "How to make the best Sourdough Pizza | Recipe for Italian pizza | Foodgeek",
+			"url": "https://www.youtube.com/watch?v=LXuyEZP2s1c"
+		},
+		{
+			"id": 9,
+			"categoriaId": 2,
+			"titulo": "Massa de pizza napoletana e longa fermentação",
+			"url": "https://www.youtube.com/watch?v=xOIhH9mkAxM"
+		},
+		{
+			"id": 10,
+			"categoriaId": 3,
+			"titulo": "Como fazer focaccia sem complicações",
+			"url": "https://www.youtube.com/watch?v=9msjjvrfqiE"
+		},
+		{
+			"id": 11,
+			"categoriaId": 3,
+			"titulo": "Focaccia de fermento natural",
+			"url": "https://www.youtube.com/watch?v=aTGGDk6jp6Q"
+		},
+		{
+			"id": 12,
+			"categoriaId": 3,
+			"titulo": "Focaccia fácil e prática",
+			"url": "https://www.youtube.com/watch?v=TRBiwOwb170"
+		},
+		{
+			"id": 13,
+			"categoriaId": 4,
+			"titulo": "Pão de Batata Doce Roxa com Fermentação Natural",
+			"url": "https://www.youtube.com/watch?v=gzh9Z7Mwv5E"
+		},
+		{
+			"id": 14,
+			"categoriaId": 4,
+			"titulo": "Cinnamon rolls - Receita Clássica Americana",
+			"url": "https://www.youtube.com/watch?v=VajP1URNQsE"
+		},
+		{
+			"id": 15,
+			"categoriaId": 4,
+			"titulo": "Sourdough Pretzels",
+			"url": "https://www.youtube.com/watch?v=dHPa037Loi0"
+		}
+	]
+}
