@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepositories from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -17,15 +18,12 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://breadflix.herokuapp.com/categorias';
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        const resposta = await respostaDoServer.json();
-        setCategorias([
-          ...resposta,
-        ]);
+    categoriasRepositories.getAll()
+      .then((todasCategorias) => {
+        setCategorias(todasCategorias);
+      })
+      .catch((err) => {
+        console.log(err.message);
       });
   }, []);
 
@@ -50,7 +48,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da Categoria"
-          type="input"
+          type="input" //verifica se é preciso
           name="nome"
           value={values.nome}
           onChange={handleChange}
