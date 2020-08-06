@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { css } from '@emotion/core';
+import ClipLoader from 'react-spinners/ClipLoader';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import categoriasRepositories from '../../../repositories/categorias';
+
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+`;
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -48,7 +56,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da Categoria"
-          type="input" //verifica se é preciso
+          type="input" // verifica se é preciso
           name="nome"
           value={values.nome}
           onChange={handleChange}
@@ -76,8 +84,13 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
+        <div className="sweet-loading">
+          <ClipLoader
+            css={override}
+            size={150}
+            color="#123abc"
+            loading="true"
+          />
         </div>
       )}
 
